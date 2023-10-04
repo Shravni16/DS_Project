@@ -3,4 +3,4 @@ matplotlib==3.4.3
 pandas
 numpy
 seaborn
-sklearn.metrics
+sklearn
