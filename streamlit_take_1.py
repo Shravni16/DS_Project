@@ -30,6 +30,7 @@ def HeatMap():
 def DataBeforeNormalization():
     st.header("Data Before Normalization :")
     X_train_b_n.plot()
+    plt.xlim(0,200)
     st.pyplot()
 
 def DataAfterNormalization():
