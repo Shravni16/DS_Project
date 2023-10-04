@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as nd
 from matplotlib import pyplot as plt
 import seaborn as sns
-plt.rcParams['agg.path.chunksize'] = 1000000
+plt.rcParams['agg.path.chunksize'] = 1000000000000000000
 
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
